@@ -1,0 +1,8 @@
+config:
+    application:
+        myKey: "appValue"
+    example-pubsub:
+        myKey: "example-value"
+levelsbeyond:
+    base-url: "recon-dc1.local"
+
