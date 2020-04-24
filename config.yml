@@ -1,0 +1,4 @@
+application:
+    myKey: "master"
+example-pubsub:
+    myKey: "example-master"
