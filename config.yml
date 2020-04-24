@@ -1,5 +1,27 @@
 application:
     myKey: "appValue"
+    management:
+        endpoints:
+            web:
+                exposure:
+                    include: "*"
+    spring:
+        sleuth:
+            sampler:
+                probability: 1.0
+        rabbitmq:
+            host: "rabbitmq.recon-dc1.local"
+            port: 5673
+        zipkin:
+            baseUrl: "https://zipkin.recon-dc1.local"
 example-pubsub:
     myKey: "example-value-updated"
-
+    whoIsADork: "Andy is a dork"
+    spring:
+        cloud:
+            stream:
+                bindings:
+                    exampleIn:
+                        destination: "example"
+                    exampleOut:
+                        destination: "example"
