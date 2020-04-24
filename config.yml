@@ -1,6 +1,5 @@
 application:
     myKey: "otherValue"
-    user: "guille"
     management:
         endpoints:
             web:
