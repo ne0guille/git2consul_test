@@ -1,0 +1,5 @@
+application:
+    myKey: "appValue"
+example-pubsub:
+    myKey: "example-value"
+
