@@ -1,5 +1,6 @@
 application:
-    myKey: "appValue"
+    myKey: "otherValue"
+    user: "guille"
     management:
         endpoints:
             web:
@@ -15,7 +16,7 @@ application:
         zipkin:
             baseUrl: "https://zipkin.recon-dc1.local"
 example-pubsub:
-    myKey: "example-value-updated"
+    myKey: "myValue"
     whoIsADork: "Andy is a dork"
     spring:
         cloud:
